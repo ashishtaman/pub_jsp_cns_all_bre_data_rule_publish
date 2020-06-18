@@ -61,7 +61,7 @@
     <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
       <hideColumn>false</hideColumn>
       <width>-1</width>
-      <header>Data_factor_values_3</header>
+      <header>Data_factor_values_3 &gt;</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.ActionSetField>
           <fieldValues>
@@ -78,11 +78,11 @@
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
-          <width>173</width>
-          <header>Data_factor_values_3</header>
+          <width>100</width>
+          <header>Data_factor_values_3 &gt;</header>
           <varName>data_factor_values_3</varName>
           <fieldType>Double</fieldType>
-          <factType>data</factType>
+          <factType>pub_cns_combined_flattened_bre</factType>
           <factField>data_factor_values_3</factField>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
       </childColumns>
@@ -151,8 +151,8 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>0.0092</valueString>
-        <dataType>STRING</dataType>
+        <valueString></valueString>
+        <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
     </list>
