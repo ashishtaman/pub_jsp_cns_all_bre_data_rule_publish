@@ -1,8 +1,8 @@
-<org.drools.workbench.models.guided.dtable.shared.model.GuidedDecisionTable52>
+<decision-table52>
   <tableName>Units Per Pack Sybase Use</tableName>
   <rowNumberCol>
     <hideColumn>false</hideColumn>
-    <width>-1</width>
+    <width>50</width>
   </rowNumberCol>
   <descriptionCol>
     <hideColumn>false</hideColumn>
@@ -10,9 +10,10 @@
   </descriptionCol>
   <metadataCols/>
   <attributeCols>
-    <org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
+    <attribute-column52>
       <typedDefaultValue>
         <valueNumeric class="int">0</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
@@ -21,46 +22,51 @@
       <attribute>salience</attribute>
       <reverseOrder>false</reverseOrder>
       <useRowNumber>false</useRowNumber>
-    </org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
-    <org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
+    </attribute-column52>
+    <attribute-column52>
       <typedDefaultValue>
         <valueString>execute_rule_</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>-1</width>
+      <width>100</width>
       <attribute>activation-group</attribute>
       <reverseOrder>false</reverseOrder>
       <useRowNumber>false</useRowNumber>
-    </org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
+    </attribute-column52>
   </attributeCols>
   <conditionPatterns>
-    <org.drools.workbench.models.guided.dtable.shared.model.Pattern52>
+    <Pattern52>
       <factType>pub_cns_combined_flattened_bre</factType>
       <boundName>data</boundName>
       <isNegated>false</isNegated>
       <conditions>
-        <org.drools.workbench.models.guided.dtable.shared.model.ConditionCol52>
+        <condition-column52>
           <hideColumn>false</hideColumn>
           <width>100</width>
           <header>data_units_per_package equals</header>
           <constraintValueType>3</constraintValueType>
           <factField>data_units_per_package</factField>
-          <fieldType>java.lang.Long</fieldType>
+          <fieldType>Long</fieldType>
           <operator>==</operator>
-        </org.drools.workbench.models.guided.dtable.shared.model.ConditionCol52>
-        <org.drools.workbench.models.guided.dtable.shared.model.ConditionCol52>
+          <parameters/>
+        </condition-column52>
+        <condition-column52>
           <hideColumn>false</hideColumn>
           <width>100</width>
           <header>data_units_per_package &gt;</header>
           <constraintValueType>3</constraintValueType>
           <factField>data_units_per_package</factField>
-          <fieldType>java.lang.Long</fieldType>
+          <fieldType>Long</fieldType>
           <operator>&gt;</operator>
-        </org.drools.workbench.models.guided.dtable.shared.model.ConditionCol52>
+          <parameters/>
+        </condition-column52>
       </conditions>
-    </org.drools.workbench.models.guided.dtable.shared.model.Pattern52>
+      <window>
+        <parameters/>
+      </window>
+    </Pattern52>
   </conditionPatterns>
   <actionCols>
     <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
@@ -93,6 +99,33 @@
       </childColumns>
     </org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
   </actionCols>
+  <auditLog>
+    <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
+      <acceptedTypes>
+        <entry>
+          <string>INSERT_ROW</string>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
+          <string>INSERT_COLUMN</string>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
+          <string>DELETE_ROW</string>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
+          <string>DELETE_COLUMN</string>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
+          <string>UPDATE_COLUMN</string>
+          <boolean>false</boolean>
+        </entry>
+      </acceptedTypes>
+    </filter>
+    <entries/>
+  </auditLog>
   <imports>
     <imports/>
   </imports>
@@ -101,724 +134,784 @@
   <hitPolicy>NONE</hitPolicy>
   <data>
     <list>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">0</valueNumeric>
+      <value>
+        <valueNumeric class="int">1</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>Rule_11_Units Per Pack Sybase Use_case_1_UnitsPerPackSB - 1</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueNumeric class="int">2114</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>execute_rule_11</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>1</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>1274002573</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
     </list>
     <list>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">1</valueNumeric>
+      <value>
+        <valueNumeric class="int">2</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>Rule_11_Units Per Pack Sybase Use_case_2_UnitsPerPackSB - 2</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueNumeric class="int">2113</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>execute_rule_11</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>2</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>1274002574</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
     </list>
     <list>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">2</valueNumeric>
+      <value>
+        <valueNumeric class="int">3</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>Rule_11_Units Per Pack Sybase Use_case_3_UnitsPerPackSB - 3</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueNumeric class="int">2112</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>execute_rule_11</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>3</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>1274002575</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
     </list>
     <list>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">3</valueNumeric>
+      <value>
+        <valueNumeric class="int">4</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>Rule_11_Units Per Pack Sybase Use_case_4_UnitsPerPackSB - 4</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueNumeric class="int">2111</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>execute_rule_11</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>4</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>1274002576</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
     </list>
     <list>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">4</valueNumeric>
+      <value>
+        <valueNumeric class="int">5</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>Rule_11_Units Per Pack Sybase Use_case_5_UnitsPerPackSB - 5</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueNumeric class="int">2110</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>execute_rule_11</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>5</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>1274002577</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
     </list>
     <list>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">5</valueNumeric>
+      <value>
+        <valueNumeric class="int">6</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>Rule_11_Units Per Pack Sybase Use_case_6_UnitsPerPackSB - 6</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueNumeric class="int">2109</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>execute_rule_11</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>6</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>1274002578</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
     </list>
     <list>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">6</valueNumeric>
+      <value>
+        <valueNumeric class="int">7</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>Rule_11_Units Per Pack Sybase Use_case_7_UnitsPerPackSB - 7</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueNumeric class="int">2108</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>execute_rule_11</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>7</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>1274002579</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
     </list>
     <list>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">7</valueNumeric>
+      <value>
+        <valueNumeric class="int">8</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>Rule_11_Units Per Pack Sybase Use_case_8_UnitsPerPackSB - 8</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueNumeric class="int">2107</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>execute_rule_11</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>8</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>1274002580</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
     </list>
     <list>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">8</valueNumeric>
+      <value>
+        <valueNumeric class="int">9</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>Rule_11_Units Per Pack Sybase Use_case_9_UnitsPerPackSB - 9</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueNumeric class="int">2106</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>execute_rule_11</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>9</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>1274002581</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
     </list>
     <list>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">9</valueNumeric>
+      <value>
+        <valueNumeric class="int">10</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>Rule_11_Units Per Pack Sybase Use_case_10_UnitsPerPackSB - 10</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueNumeric class="int">2105</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>execute_rule_11</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>10</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>1274002582</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
     </list>
     <list>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">10</valueNumeric>
+      <value>
+        <valueNumeric class="int">11</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>Rule_11_Units Per Pack Sybase Use_case_11_UnitsPerPackSB - 11</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueNumeric class="int">2104</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>execute_rule_11</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>11</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>1274002583</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
     </list>
     <list>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">11</valueNumeric>
+      <value>
+        <valueNumeric class="int">12</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>Rule_11_Units Per Pack Sybase Use_case_12_UnitsPerPackSB - 12</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueNumeric class="int">2103</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>execute_rule_11</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>12</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>1274002584</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
     </list>
     <list>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">12</valueNumeric>
+      <value>
+        <valueNumeric class="int">13</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>Rule_11_Units Per Pack Sybase Use_case_13_UnitsPerPackSB - 13</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueNumeric class="int">2102</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>execute_rule_11</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>13</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>1274002585</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
     </list>
     <list>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">13</valueNumeric>
+      <value>
+        <valueNumeric class="int">14</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>Rule_11_Units Per Pack Sybase Use_case_14_UnitsPerPackSB - 14</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueNumeric class="int">2101</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>execute_rule_11</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>14</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>1274002586</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
     </list>
     <list>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">14</valueNumeric>
+      <value>
+        <valueNumeric class="int">15</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>Rule_11_Units Per Pack Sybase Use_case_15_UnitsPerPackSB - 15</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueNumeric class="int">2100</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>execute_rule_11</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>15</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>1274002587</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
     </list>
     <list>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">15</valueNumeric>
+      <value>
+        <valueNumeric class="int">16</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>Rule_11_Units Per Pack Sybase Use_case_16_UnitsPerPackSB - 16</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueNumeric class="int">2099</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>execute_rule_11</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>16</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>1274002588</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
     </list>
     <list>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">16</valueNumeric>
+      <value>
+        <valueNumeric class="int">17</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>Rule_11_Units Per Pack Sybase Use_case_17_UnitsPerPackSB - 17</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueNumeric class="int">2098</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>execute_rule_11</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>17</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>1274002589</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
     </list>
     <list>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">17</valueNumeric>
+      <value>
+        <valueNumeric class="int">18</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>Rule_11_Units Per Pack Sybase Use_case_18_UnitsPerPackSB - 18</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueNumeric class="int">2097</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>execute_rule_11</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>18</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>1274002590</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
     </list>
     <list>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">18</valueNumeric>
+      <value>
+        <valueNumeric class="int">19</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>Rule_11_Units Per Pack Sybase Use_case_19_UnitsPerPackSB - 19</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueNumeric class="int">2096</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>execute_rule_11</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>19</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>1274002591</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
     </list>
     <list>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">19</valueNumeric>
+      <value>
+        <valueNumeric class="int">20</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>Rule_11_Units Per Pack Sybase Use_case_20_UnitsPerPackSB - 20 or More</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueNumeric class="int">2095</valueNumeric>
+        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>execute_rule_11</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>19</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
+      <value>
         <valueString>1274002592</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      </value>
     </list>
   </data>
-</org.drools.workbench.models.guided.dtable.shared.model.GuidedDecisionTable52>
+</decision-table52>
