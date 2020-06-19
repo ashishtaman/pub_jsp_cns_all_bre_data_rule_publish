@@ -67,7 +67,7 @@
           <fieldValues>
             <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
               <field>data_npd_attr_94</field>
-              <value>data.decimal_round(((data.data_measures__sales)*(data.data_factor_values_6)/(data.data_measures__units)),2)</value>
+              <value>data.decimalRound(((data.data_measures__sales)*(data.data_factor_values_6)/(data.data_measures__units)),2)</value>
               <nature>3</nature>
               <type>Double</type>
             </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
