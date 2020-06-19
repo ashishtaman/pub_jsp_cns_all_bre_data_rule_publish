@@ -19093,7 +19093,7 @@ private java.lang.String panelist_panelist_attr_100;
 		 this.panelist_end_of_rec = panelist_end_of_rec;
 	}
 	
-	public Number decimalRound(java.lang.Number num, int num_places){
+	public Number decimal_round(java.lang.Number num, int num_places){
         try{
             if(num_places<0) 
              num_places = 0 ;
@@ -19111,7 +19111,7 @@ private java.lang.String panelist_panelist_attr_100;
         }
     }
 
-    public java.math.BigDecimal decimalRound(java.math.BigDecimal num, int num_places){
+    public java.math.BigDecimal decimal_round(java.math.BigDecimal num, int num_places){
        
          
             if(num_places<0)
