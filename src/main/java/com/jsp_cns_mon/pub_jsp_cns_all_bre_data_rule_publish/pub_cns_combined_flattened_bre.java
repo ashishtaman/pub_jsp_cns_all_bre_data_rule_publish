@@ -470,7 +470,7 @@ public class pub_cns_combined_flattened_bre implements java.io.Serializable {
 	private long data_npd_attr_37;
 	private long data_npd_attr_38;
 	private long data_npd_attr_39;
-	private Long data_npd_attr_40;
+	private java.lang.Long data_npd_attr_40;
 	private double data_npd_attr_41;
 	private long data_npd_attr_42;
 	private long data_npd_attr_43;
