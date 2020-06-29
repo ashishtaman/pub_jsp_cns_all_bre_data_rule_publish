@@ -1,8 +1,8 @@
 package com.jsp_cns_mon.pub_jsp_cns_all_bre_data_rule_publish;
 
-import java.math;
-import java.lang.Object;
-import java.util;
+import java.math.*;
+import java.lang.Object.*;
+import java.util.*;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
 
