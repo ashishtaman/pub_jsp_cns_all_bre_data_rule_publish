@@ -59,7 +59,7 @@
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
           <width>275</width>
-          <header>data_factor_values_3 equals</header>
+          <header>Currency Factor  : data_factor_values_3 equals</header>
           <constraintValueType>1</constraintValueType>
           <factField>data_factor_values_3</factField>
           <fieldType>Double</fieldType>
@@ -78,7 +78,7 @@
     <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
       <hideColumn>false</hideColumn>
       <width>-1</width>
-      <header>Data_factor_values_3</header>
+      <header>Currency Factor : Data_factor_values_3</header>
       <definition>
         <org.drools.workbench.models.datamodel.rule.ActionSetField>
           <fieldValues>
@@ -95,11 +95,11 @@
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
-          <width>254</width>
-          <header>Data_factor_values_3</header>
+          <width>100</width>
+          <header>Currency Factor : Data_factor_values_3</header>
           <varName>data_factor_values_3</varName>
           <fieldType>Double</fieldType>
-          <factType>data</factType>
+          <factType>pub_cns_combined_flattened_bre</factType>
           <factField>data_factor_values_3</factField>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
       </childColumns>
@@ -173,8 +173,9 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>0.0092</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="double">0.0092</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
     </list>
