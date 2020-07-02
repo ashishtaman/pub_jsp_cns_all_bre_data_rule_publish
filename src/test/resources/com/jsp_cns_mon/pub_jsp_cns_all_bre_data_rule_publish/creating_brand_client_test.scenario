@@ -1,9 +1,95 @@
 <scenario>
-  <name>creating_brand_client_test</name>
+  <name>creating_brand_client_test.scenario</name>
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
-  <fixtures/>
-  <rules/>
+  <fixtures>
+    <fact-data>
+      <type>pub_cns_combined_flattened_bre</type>
+      <fieldData>
+        <field-data>
+          <name>data_brand</name>
+          <value>1274000592</value>
+          <nature>4</nature>
+        </field-data>
+        <field-data>
+          <name>data_outlet</name>
+          <value>1274000626</value>
+          <nature>4</nature>
+        </field-data>
+        <field-data>
+          <name>data_category_dim__level_1</name>
+          <value>1274000620</value>
+          <nature>4</nature>
+        </field-data>
+        <field-data>
+          <name>data_ppmonth</name>
+          <value>530</value>
+          <nature>4</nature>
+        </field-data>
+      </fieldData>
+      <name>a</name>
+      <isModify>false</isModify>
+    </fact-data>
+    <execution-trace>
+      <executionTimeResult>204</executionTimeResult>
+      <numberOfRulesFired>15</numberOfRulesFired>
+    </execution-trace>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>data_npd_attr_90</fieldName>
+          <expected></expected>
+          <actualResult>1274002511</actualResult>
+          <successResult>false</successResult>
+          <explanation>[pub_cns_combined_flattened_bre] field [data_npd_attr_90] was [1274002511] expected [].</explanation>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+        <expect-field>
+          <fieldName>data_factor_values_2</fieldName>
+          <expected></expected>
+          <actualResult></actualResult>
+          <successResult>false</successResult>
+          <explanation>[pub_cns_combined_flattened_bre] field [data_factor_values_2] was [] expected [].</explanation>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+        <expect-field>
+          <fieldName>data_factor_values_4</fieldName>
+          <expected></expected>
+          <actualResult></actualResult>
+          <successResult>false</successResult>
+          <explanation>[pub_cns_combined_flattened_bre] field [data_factor_values_4] was [] expected [].</explanation>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+        <expect-field>
+          <fieldName>data_brand</fieldName>
+          <expected></expected>
+          <actualResult>1274002426</actualResult>
+          <successResult>false</successResult>
+          <explanation>[pub_cns_combined_flattened_bre] field [data_brand] was [1274002426] expected [].</explanation>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+        <expect-field>
+          <fieldName>data_outlet</fieldName>
+          <expected></expected>
+          <actualResult>1274000626</actualResult>
+          <successResult>false</successResult>
+          <explanation>[pub_cns_combined_flattened_bre] field [data_outlet] was [1274000626] expected [].</explanation>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+      </fieldValues>
+      <name>pub_cns_combined_flattened_bre</name>
+      <anonymous>true</anonymous>
+    </expect-fact>
+  </fixtures>
+  <lastRunResult>2020-07-02 12:17:04.329 UTC</lastRunResult>
+  <rules>
+    <string>Row 1 Dollar Price for Sybase</string>
+  </rules>
   <inclusive>false</inclusive>
   <packageName>com.jsp_cns_mon.pub_jsp_cns_all_bre_data_rule_publish</packageName>
   <imports>
