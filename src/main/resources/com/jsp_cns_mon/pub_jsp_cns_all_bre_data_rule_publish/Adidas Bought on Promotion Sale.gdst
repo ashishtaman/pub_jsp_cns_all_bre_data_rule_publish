@@ -30,7 +30,7 @@
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>100</width>
+      <width>142</width>
       <attribute>activation-group</attribute>
       <reverseOrder>false</reverseOrder>
       <useRowNumber>false</useRowNumber>
@@ -44,7 +44,7 @@
       <conditions>
         <condition-column52>
           <hideColumn>false</hideColumn>
-          <width>100</width>
+          <width>150</width>
           <header>data_on_sale equals</header>
           <constraintValueType>3</constraintValueType>
           <factField>data_on_sale</factField>
@@ -59,7 +59,7 @@
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>100</width>
+          <width>152</width>
           <header>data_ppmonth &gt;</header>
           <constraintValueType>1</constraintValueType>
           <factField>data_ppmonth</factField>
