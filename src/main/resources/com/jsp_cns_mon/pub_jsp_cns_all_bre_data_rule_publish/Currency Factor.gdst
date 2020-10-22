@@ -1,19 +1,18 @@
-<decision-table52>
+<org.drools.workbench.models.guided.dtable.shared.model.GuidedDecisionTable52>
   <tableName>Currency Factor</tableName>
   <rowNumberCol>
     <hideColumn>false</hideColumn>
-    <width>50</width>
+    <width>-1</width>
   </rowNumberCol>
   <descriptionCol>
     <hideColumn>false</hideColumn>
-    <width>718</width>
+    <width>150</width>
   </descriptionCol>
   <metadataCols/>
   <attributeCols>
-    <attribute-column52>
+    <org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
       <typedDefaultValue>
         <valueNumeric class="int">0</valueNumeric>
-        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
@@ -22,170 +21,121 @@
       <attribute>salience</attribute>
       <reverseOrder>false</reverseOrder>
       <useRowNumber>false</useRowNumber>
-    </attribute-column52>
-    <attribute-column52>
+    </org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
+    <org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
       <typedDefaultValue>
         <valueString>execute_rule_</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>100</width>
+      <width>-1</width>
       <attribute>activation-group</attribute>
       <reverseOrder>false</reverseOrder>
       <useRowNumber>false</useRowNumber>
-    </attribute-column52>
+    </org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
+    <org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
+      <typedDefaultValue>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>100</width>
+      <attribute>lock-on-active</attribute>
+      <reverseOrder>false</reverseOrder>
+      <useRowNumber>false</useRowNumber>
+    </org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
   </attributeCols>
   <conditionPatterns>
-    <Pattern52>
+    <org.drools.workbench.models.guided.dtable.shared.model.Pattern52>
       <factType>pub_cns_combined_flattened_bre</factType>
       <boundName>data</boundName>
       <isNegated>false</isNegated>
       <conditions>
-        <condition-column52>
-          <typedDefaultValue>
-            <valueString></valueString>
-            <dataType>NUMERIC_INTEGER</dataType>
-            <isOtherwise>false</isOtherwise>
-          </typedDefaultValue>
+        <org.drools.workbench.models.guided.dtable.shared.model.ConditionCol52>
           <hideColumn>false</hideColumn>
           <width>100</width>
           <header>data_ppmonth &gt;</header>
           <constraintValueType>1</constraintValueType>
           <factField>data_ppmonth</factField>
-          <fieldType>Integer</fieldType>
+          <fieldType>java.math.BigDecimal</fieldType>
           <operator>&gt;</operator>
-          <parameters/>
-          <binding></binding>
-        </condition-column52>
-        <condition-column52>
-          <typedDefaultValue>
-            <valueString></valueString>
-            <dataType>NUMERIC_DOUBLE</dataType>
-            <isOtherwise>false</isOtherwise>
-          </typedDefaultValue>
-          <hideColumn>false</hideColumn>
-          <width>275</width>
-          <header>Currency Factor  : data_factor_values_3 equals</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>data_factor_values_3</factField>
-          <fieldType>Double</fieldType>
-          <operator>==</operator>
-          <parameters/>
-          <binding></binding>
-        </condition-column52>
-      </conditions>
-      <window>
-        <parameters/>
-      </window>
-      <entryPointName></entryPointName>
-    </Pattern52>
-  </conditionPatterns>
-  <actionCols>
-    <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
-      <hideColumn>false</hideColumn>
-      <width>-1</width>
-      <header>Currency Factor : Data_factor_values_3</header>
-      <definition>
-        <org.drools.workbench.models.datamodel.rule.ActionSetField>
-          <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-              <field>data_factor_values_3</field>
-              <value>data_factor_values_3</value>
-              <nature>7</nature>
-              <type>Double</type>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-          </fieldValues>
-          <variable>data</variable>
-        </org.drools.workbench.models.datamodel.rule.ActionSetField>
-      </definition>
-      <childColumns>
-        <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
+        </org.drools.workbench.models.guided.dtable.shared.model.ConditionCol52>
+        <org.drools.workbench.models.guided.dtable.shared.model.ConditionCol52>
           <hideColumn>false</hideColumn>
           <width>100</width>
-          <header>Currency Factor : Data_factor_values_3</header>
-          <varName>data_factor_values_3</varName>
-          <fieldType>Double</fieldType>
-          <factType>pub_cns_combined_flattened_bre</factType>
+          <header>data_factor_values_3 equals</header>
+          <constraintValueType>1</constraintValueType>
           <factField>data_factor_values_3</factField>
-        </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
-      </childColumns>
-    </org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
+          <fieldType>java.math.BigDecimal</fieldType>
+          <operator>==</operator>
+        </org.drools.workbench.models.guided.dtable.shared.model.ConditionCol52>
+      </conditions>
+    </org.drools.workbench.models.guided.dtable.shared.model.Pattern52>
+  </conditionPatterns>
+  <actionCols>
+    <org.drools.workbench.models.guided.dtable.shared.model.ActionSetFieldCol52>
+      <hideColumn>false</hideColumn>
+      <width>100</width>
+      <header>Data_factor_values_3</header>
+      <boundName>data</boundName>
+      <factField>data_factor_values_3</factField>
+      <type>java.math.BigDecimal</type>
+      <update>false</update>
+    </org.drools.workbench.models.guided.dtable.shared.model.ActionSetFieldCol52>
   </actionCols>
-  <auditLog>
-    <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
-      <acceptedTypes>
-        <entry>
-          <string>INSERT_ROW</string>
-          <boolean>false</boolean>
-        </entry>
-        <entry>
-          <string>INSERT_COLUMN</string>
-          <boolean>false</boolean>
-        </entry>
-        <entry>
-          <string>DELETE_ROW</string>
-          <boolean>false</boolean>
-        </entry>
-        <entry>
-          <string>DELETE_COLUMN</string>
-          <boolean>false</boolean>
-        </entry>
-        <entry>
-          <string>UPDATE_COLUMN</string>
-          <boolean>false</boolean>
-        </entry>
-      </acceptedTypes>
-    </filter>
-    <entries/>
-  </auditLog>
   <imports>
-    <imports/>
+    <imports>
+      <org.kie.soup.project.datamodel.imports.Import>
+        <type>com.data_object.data_object.pub_cns_combined_flattened_bre</type>
+      </org.kie.soup.project.datamodel.imports.Import>
+    </imports>
   </imports>
-  <packageName>com.jsp_cns_mon.pub_jsp_cns_all_bre_data_rule_publish</packageName>
+  <packageName>com.jsp_cns_mon.pub_jsp_cns_all_bre_data_rule_publish__work</packageName>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
   <hitPolicy>NONE</hitPolicy>
   <data>
     <list>
-      <value>
-        <valueNumeric class="int">1</valueNumeric>
-        <valueString></valueString>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">0</valueNumeric>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueString>Rule_2_Currency Factor_case_1_Changed from 0.0089 of 2019, Change from 0.0082 by 2017</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">2453</valueNumeric>
-        <valueString></valueString>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">1</valueNumeric>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueString>execute_rule_2</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">0</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>NUMERIC_DOUBLE</dataType>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">0</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="double">0.0092</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_DOUBLE</dataType>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </value>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">0.0092</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
     </list>
   </data>
-</decision-table52>
+</org.drools.workbench.models.guided.dtable.shared.model.GuidedDecisionTable52>

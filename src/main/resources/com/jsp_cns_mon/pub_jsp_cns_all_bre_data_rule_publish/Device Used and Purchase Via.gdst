@@ -34,6 +34,18 @@
       <reverseOrder>false</reverseOrder>
       <useRowNumber>false</useRowNumber>
     </org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
+    <org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
+      <typedDefaultValue>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>100</width>
+      <attribute>lock-on-active</attribute>
+      <reverseOrder>false</reverseOrder>
+      <useRowNumber>false</useRowNumber>
+    </org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
   </attributeCols>
   <conditionPatterns>
     <org.drools.workbench.models.guided.dtable.shared.model.Pattern52>
@@ -45,58 +57,42 @@
           <hideColumn>false</hideColumn>
           <width>100</width>
           <header>Device Used : data_npd_attr_105 equals</header>
-          <constraintValueType>3</constraintValueType>
+          <constraintValueType>1</constraintValueType>
           <factField>data_npd_attr_105</factField>
-          <fieldType>java.lang.Long</fieldType>
+          <fieldType>java.math.BigDecimal</fieldType>
           <operator>==</operator>
         </org.drools.workbench.models.guided.dtable.shared.model.ConditionCol52>
         <org.drools.workbench.models.guided.dtable.shared.model.ConditionCol52>
           <hideColumn>false</hideColumn>
           <width>100</width>
           <header>Purchased Via : data_npd_attr_106 equals</header>
-          <constraintValueType>3</constraintValueType>
+          <constraintValueType>1</constraintValueType>
           <factField>data_npd_attr_106</factField>
-          <fieldType>java.lang.Long</fieldType>
+          <fieldType>java.math.BigDecimal</fieldType>
           <operator>==</operator>
         </org.drools.workbench.models.guided.dtable.shared.model.ConditionCol52>
       </conditions>
     </org.drools.workbench.models.guided.dtable.shared.model.Pattern52>
   </conditionPatterns>
   <actionCols>
-    <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
+    <org.drools.workbench.models.guided.dtable.shared.model.ActionSetFieldCol52>
       <hideColumn>false</hideColumn>
-      <width>-1</width>
+      <width>100</width>
       <header>Purchased Via : Data_npd_attr_106</header>
-      <definition>
-        <org.drools.workbench.models.datamodel.rule.ActionSetField>
-          <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-              <field>data_npd_attr_106</field>
-              <value>data_npd_attr_106</value>
-              <nature>7</nature>
-              <type>Long</type>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-          </fieldValues>
-          <variable>data</variable>
-        </org.drools.workbench.models.datamodel.rule.ActionSetField>
-      </definition>
-      <childColumns>
-        <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
-          <hideColumn>false</hideColumn>
-          <width>100</width>
-          <header>Purchased Via : Data_npd_attr_106</header>
-          <varName>data_npd_attr_106</varName>
-          <fieldType>Long</fieldType>
-          <factType>data</factType>
-          <factField>data_npd_attr_106</factField>
-        </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
-      </childColumns>
-    </org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
+      <boundName>data</boundName>
+      <factField>data_npd_attr_106</factField>
+      <type>java.math.BigDecimal</type>
+      <update>false</update>
+    </org.drools.workbench.models.guided.dtable.shared.model.ActionSetFieldCol52>
   </actionCols>
   <imports>
-    <imports/>
+    <imports>
+      <org.kie.soup.project.datamodel.imports.Import>
+        <type>com.data_object.data_object.pub_cns_combined_flattened_bre</type>
+      </org.kie.soup.project.datamodel.imports.Import>
+    </imports>
   </imports>
-  <packageName>com.jsp_cns_mon.pub_jsp_cns_all_bre_data_rule_publish</packageName>
+  <packageName>com.jsp_cns_mon.pub_jsp_cns_all_bre_data_rule_publish__work</packageName>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
   <hitPolicy>NONE</hitPolicy>
   <data>
@@ -112,7 +108,7 @@
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">152</valueNumeric>
+        <valueNumeric class="int">1</valueNumeric>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
@@ -122,18 +118,23 @@
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueString>1274002953</valueString>
-        <dataType>STRING</dataType>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueString>1274002950</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="big-decimal">1274002953</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueString>1274002951</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="big-decimal">1274002950</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1274002951</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
     </list>

@@ -1,19 +1,18 @@
-<decision-table52>
+<org.drools.workbench.models.guided.dtable.shared.model.GuidedDecisionTable52>
   <tableName>Smartphone (Mobile)</tableName>
   <rowNumberCol>
     <hideColumn>false</hideColumn>
-    <width>50</width>
+    <width>-1</width>
   </rowNumberCol>
   <descriptionCol>
     <hideColumn>false</hideColumn>
-    <width>684</width>
+    <width>150</width>
   </descriptionCol>
   <metadataCols/>
   <attributeCols>
-    <attribute-column52>
+    <org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
       <typedDefaultValue>
         <valueNumeric class="int">0</valueNumeric>
-        <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
@@ -22,214 +21,181 @@
       <attribute>salience</attribute>
       <reverseOrder>false</reverseOrder>
       <useRowNumber>false</useRowNumber>
-    </attribute-column52>
-    <attribute-column52>
+    </org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
+    <org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
       <typedDefaultValue>
         <valueString>execute_rule_</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>100</width>
+      <width>-1</width>
       <attribute>activation-group</attribute>
       <reverseOrder>false</reverseOrder>
       <useRowNumber>false</useRowNumber>
-    </attribute-column52>
+    </org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
+    <org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
+      <typedDefaultValue>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>100</width>
+      <attribute>lock-on-active</attribute>
+      <reverseOrder>false</reverseOrder>
+      <useRowNumber>false</useRowNumber>
+    </org.drools.workbench.models.guided.dtable.shared.model.AttributeCol52>
   </attributeCols>
   <conditionPatterns>
-    <Pattern52>
+    <org.drools.workbench.models.guided.dtable.shared.model.Pattern52>
       <factType>pub_cns_combined_flattened_bre</factType>
       <boundName>data</boundName>
       <isNegated>false</isNegated>
       <conditions>
-        <condition-column52>
-          <hideColumn>false</hideColumn>
-          <width>100</width>
-          <header>data_ppmonth &lt;</header>
-          <constraintValueType>3</constraintValueType>
-          <factField>data_ppmonth</factField>
-          <fieldType>Integer</fieldType>
-          <operator>&lt;</operator>
-          <parameters/>
-        </condition-column52>
-        <condition-column52>
+        <org.drools.workbench.models.guided.dtable.shared.model.ConditionCol52>
           <hideColumn>false</hideColumn>
           <width>100</width>
           <header>data_ppmonth &gt;</header>
-          <constraintValueType>3</constraintValueType>
+          <constraintValueType>1</constraintValueType>
           <factField>data_ppmonth</factField>
-          <fieldType>Integer</fieldType>
+          <fieldType>java.math.BigDecimal</fieldType>
           <operator>&gt;</operator>
-          <parameters/>
-        </condition-column52>
-        <condition-column52>
+        </org.drools.workbench.models.guided.dtable.shared.model.ConditionCol52>
+        <org.drools.workbench.models.guided.dtable.shared.model.ConditionCol52>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>data_ppmonth &lt;</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>data_ppmonth</factField>
+          <fieldType>java.math.BigDecimal</fieldType>
+          <operator>&lt;</operator>
+        </org.drools.workbench.models.guided.dtable.shared.model.ConditionCol52>
+        <org.drools.workbench.models.guided.dtable.shared.model.ConditionCol52>
           <hideColumn>false</hideColumn>
           <width>100</width>
           <header>Howpurch : data_npd_attr_21 equals</header>
-          <constraintValueType>3</constraintValueType>
+          <constraintValueType>1</constraintValueType>
           <factField>data_npd_attr_21</factField>
-          <fieldType>Long</fieldType>
+          <fieldType>java.math.BigDecimal</fieldType>
           <operator>==</operator>
-          <parameters/>
-        </condition-column52>
+        </org.drools.workbench.models.guided.dtable.shared.model.ConditionCol52>
       </conditions>
-      <window>
-        <parameters/>
-      </window>
-    </Pattern52>
+    </org.drools.workbench.models.guided.dtable.shared.model.Pattern52>
   </conditionPatterns>
   <actionCols>
-    <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
+    <org.drools.workbench.models.guided.dtable.shared.model.ActionSetFieldCol52>
       <hideColumn>false</hideColumn>
-      <width>-1</width>
+      <width>100</width>
       <header>Device Used : Data_npd_attr_105</header>
-      <definition>
-        <org.drools.workbench.models.datamodel.rule.ActionSetField>
-          <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-              <field>data_npd_attr_105</field>
-              <value>data_npd_attr_105</value>
-              <nature>7</nature>
-              <type>Long</type>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
-          </fieldValues>
-          <variable>data</variable>
-        </org.drools.workbench.models.datamodel.rule.ActionSetField>
-      </definition>
-      <childColumns>
-        <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
-          <hideColumn>false</hideColumn>
-          <width>244</width>
-          <header>Device Used : Data_npd_attr_105</header>
-          <varName>data_npd_attr_105</varName>
-          <fieldType>Long</fieldType>
-          <factType>data</factType>
-          <factField>data_npd_attr_105</factField>
-        </org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
-      </childColumns>
-    </org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
+      <boundName>data</boundName>
+      <factField>data_npd_attr_105</factField>
+      <type>java.math.BigDecimal</type>
+      <update>true</update>
+    </org.drools.workbench.models.guided.dtable.shared.model.ActionSetFieldCol52>
   </actionCols>
-  <auditLog>
-    <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
-      <acceptedTypes>
-        <entry>
-          <string>INSERT_ROW</string>
-          <boolean>false</boolean>
-        </entry>
-        <entry>
-          <string>INSERT_COLUMN</string>
-          <boolean>false</boolean>
-        </entry>
-        <entry>
-          <string>DELETE_ROW</string>
-          <boolean>false</boolean>
-        </entry>
-        <entry>
-          <string>DELETE_COLUMN</string>
-          <boolean>false</boolean>
-        </entry>
-        <entry>
-          <string>UPDATE_COLUMN</string>
-          <boolean>false</boolean>
-        </entry>
-      </acceptedTypes>
-    </filter>
-    <entries/>
-  </auditLog>
   <imports>
-    <imports/>
+    <imports>
+      <org.kie.soup.project.datamodel.imports.Import>
+        <type>com.data_object.data_object.pub_cns_combined_flattened_bre</type>
+      </org.kie.soup.project.datamodel.imports.Import>
+    </imports>
   </imports>
-  <packageName>com.jsp_cns_mon.pub_jsp_cns_all_bre_data_rule_publish</packageName>
+  <packageName>com.jsp_cns_mon.pub_jsp_cns_all_bre_data_rule_publish__work</packageName>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
   <hitPolicy>NONE</hitPolicy>
   <data>
     <list>
-      <value>
-        <valueNumeric class="int">1</valueNumeric>
-        <valueString></valueString>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">0</valueNumeric>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueString>Rule_27_Smartphone (Mobile)_case_1_Npd Attr 105 was added from 577.</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">156</valueNumeric>
-        <valueString></valueString>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">30005</valueNumeric>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueString>execute_rule_27</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>577</valueString>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">512</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">577</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>512</valueString>
-        <dataType>STRING</dataType>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">0</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>0</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
     </list>
     <list>
-      <value>
-        <valueNumeric class="int">2</valueNumeric>
-        <valueString></valueString>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">1</valueNumeric>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueString>Rule_27_Smartphone (Mobile)_case_2_If Method of Purchase = Purchased via a Mobile, Then Device Used = Smartphone</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="int">155</valueNumeric>
-        <valueString></valueString>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="int">30004</valueNumeric>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <valueString>execute_rule_27</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueBoolean>true</valueBoolean>
+        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>576</valueString>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">576</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>1274001420</valueString>
-        <dataType>STRING</dataType>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1274001420</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>1274002952</valueString>
-        <dataType>STRING</dataType>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+      <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
+        <valueNumeric class="big-decimal">1274002952</valueNumeric>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
-      </value>
+      </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
     </list>
   </data>
-</decision-table52>
+</org.drools.workbench.models.guided.dtable.shared.model.GuidedDecisionTable52>
