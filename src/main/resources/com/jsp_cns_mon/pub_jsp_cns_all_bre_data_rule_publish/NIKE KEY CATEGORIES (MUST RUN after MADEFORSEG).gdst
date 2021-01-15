@@ -148,17 +148,17 @@
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueString>Rule_14_NIKE KEY CATEGORIES (MUST RUN after MADEFORSEG)_case_1_Nikekeycategory - Basketball (excl kids)</valueString>
+        <valueString>Rule_15_NIKE KEY CATEGORIES (MUST RUN after MADEFORSEG)_case_1_Nikekeycategory - Basketball (excl kids)</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">132123</valueNumeric>
+        <valueNumeric class="int">122109</valueNumeric>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueString>execute_rule_14</valueString>
+        <valueString>execute_rule_15</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
@@ -211,17 +211,17 @@
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueString>Rule_14_NIKE KEY CATEGORIES (MUST RUN after MADEFORSEG)_case_2_Nikekeycategory - Running (excl kids)</valueString>
+        <valueString>Rule_15_NIKE KEY CATEGORIES (MUST RUN after MADEFORSEG)_case_2_Nikekeycategory - Running (excl kids)</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">132122</valueNumeric>
+        <valueNumeric class="int">122108</valueNumeric>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueString>execute_rule_14</valueString>
+        <valueString>execute_rule_15</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
@@ -274,17 +274,17 @@
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueString>Rule_14_NIKE KEY CATEGORIES (MUST RUN after MADEFORSEG)_case_3_Nikekeycategory - Mens Training</valueString>
+        <valueString>Rule_15_NIKE KEY CATEGORIES (MUST RUN after MADEFORSEG)_case_3_Nikekeycategory - Mens Training</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">132121</valueNumeric>
+        <valueNumeric class="int">122107</valueNumeric>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueString>execute_rule_14</valueString>
+        <valueString>execute_rule_15</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
@@ -337,17 +337,17 @@
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueString>Rule_14_NIKE KEY CATEGORIES (MUST RUN after MADEFORSEG)_case_4_Nikekeycategory - Womens Training</valueString>
+        <valueString>Rule_15_NIKE KEY CATEGORIES (MUST RUN after MADEFORSEG)_case_4_Nikekeycategory - Womens Training</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">132120</valueNumeric>
+        <valueNumeric class="int">122106</valueNumeric>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueString>execute_rule_14</valueString>
+        <valueString>execute_rule_15</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
@@ -400,17 +400,17 @@
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueString>Rule_14_NIKE KEY CATEGORIES (MUST RUN after MADEFORSEG)_case_5_Nikekeycategory - Football (incl kids)</valueString>
+        <valueString>Rule_15_NIKE KEY CATEGORIES (MUST RUN after MADEFORSEG)_case_5_Nikekeycategory - Football (incl kids)</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">132119</valueNumeric>
+        <valueNumeric class="int">122105</valueNumeric>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueString>execute_rule_14</valueString>
+        <valueString>execute_rule_15</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
@@ -462,17 +462,17 @@
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueString>Rule_14_NIKE KEY CATEGORIES (MUST RUN after MADEFORSEG)_case_6_Changed from &quot;Skate (incl kids)&quot; to &quot;Skate (excl kids)&quot;</valueString>
+        <valueString>Rule_15_NIKE KEY CATEGORIES (MUST RUN after MADEFORSEG)_case_6_Changed from &quot;Skate (incl kids)&quot; to &quot;Skate (excl kids)&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">132118</valueNumeric>
+        <valueNumeric class="int">122104</valueNumeric>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueString>execute_rule_14</valueString>
+        <valueString>execute_rule_15</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
@@ -525,17 +525,17 @@
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueString>Rule_14_NIKE KEY CATEGORIES (MUST RUN after MADEFORSEG)_case_7_Nikekeycategory - Sportswear (excl kids)</valueString>
+        <valueString>Rule_15_NIKE KEY CATEGORIES (MUST RUN after MADEFORSEG)_case_7_Nikekeycategory - Sportswear (excl kids)</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">132117</valueNumeric>
+        <valueNumeric class="int">122103</valueNumeric>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueString>execute_rule_14</valueString>
+        <valueString>execute_rule_15</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
@@ -588,17 +588,17 @@
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueString>Rule_14_NIKE KEY CATEGORIES (MUST RUN after MADEFORSEG)_case_8_Changed from &quot;Kids&quot; to &quot;Young Athletes (excl Cleated)&quot;</valueString>
+        <valueString>Rule_15_NIKE KEY CATEGORIES (MUST RUN after MADEFORSEG)_case_8_Changed from &quot;Kids&quot; to &quot;Young Athletes (excl Cleated)&quot;</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">132116</valueNumeric>
+        <valueNumeric class="int">122102</valueNumeric>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueString>execute_rule_14</valueString>
+        <valueString>execute_rule_15</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
@@ -651,17 +651,17 @@
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueString>Rule_14_NIKE KEY CATEGORIES (MUST RUN after MADEFORSEG)_case_9_Nikekeycategory - Non-Nike Key FW Cats</valueString>
+        <valueString>Rule_15_NIKE KEY CATEGORIES (MUST RUN after MADEFORSEG)_case_9_Nikekeycategory - Non-Nike Key FW Cats</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueNumeric class="int">132115</valueNumeric>
+        <valueNumeric class="int">122101</valueNumeric>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
       <org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
-        <valueString>execute_rule_14</valueString>
+        <valueString>execute_rule_15</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52>
